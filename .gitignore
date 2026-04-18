@@ -1,1 +1,32 @@
+# Environment
 .env
+.env.*
+!.env.example
+
+# Cursor / AI tool artifacts
+.cursor/
+.cursorignore
+.cursor-tutor/
+agent-transcripts/
+
+# IDE / Editor
+.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backend (Spring Boot / Maven)
+QuizBackEnd/target/
+QuizBackEnd/logs/
+QuizBackEnd/.mvn/wrapper/maven-wrapper.jar
+
+# Frontend (Node / React)
+QuizFrontEnd/node_modules/
+QuizFrontEnd/build/
+QuizFrontEnd/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
